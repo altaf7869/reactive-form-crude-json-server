@@ -1,0 +1,36 @@
+{
+  "company": [
+    {
+      "name": "webmyne",
+      "empcount": "400",
+      "revenue": "1000",
+      "address": "bharuch",
+      "isactive": true,
+      "id": 3
+    },
+    {
+      "name": "alambic",
+      "empcount": "100",
+      "revenue": "5000",
+      "address": "abc",
+      "isactive": false,
+      "id": 4
+    },
+    {
+      "name": "test",
+      "empcount": "200",
+      "revenue": "8000",
+      "address": "tesss",
+      "isactive": true,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "asfcasec",
+      "empcount": "200",
+      "revenue": "7000",
+      "address": "abc",
+      "isactive": false
+    }
+  ]
+}

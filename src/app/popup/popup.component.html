@@ -1,0 +1,42 @@
+<mat-toolbar color="primary">
+    <span>Add Company Detail</span>
+</mat-toolbar>
+<form class="example-form" [formGroup]="companyForm" (ngSubmit)="SaveCompany()">
+    <mat-card>
+        <div mat-dialog-content class="content">
+            <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Id</mat-label>
+                    <input matInput placeholder="id" formControlName="id">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>Name</mat-label>
+                    <input matInput placeholder="Name" formControlName="name">
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Emp Count</mat-label>
+                    <input matInput placeholder="Emp count" formControlName="empcount">
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>Revenue</mat-label>
+                    <input matInput placeholder="Revenue" formControlName="revenue">
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Address</mat-label>
+                    <input matInput placeholder="Address" formControlName="address">
+                </mat-form-field>
+            </div>
+                <section class="example-section">
+                    <mat-checkbox class="example-margin" formControlName="  ">Is Active</mat-checkbox>
+                </section>
+        </div>
+        <div mat-dialog-actions class="action">
+            <button mat-raised-button color="primary">Save</button>
+            <button mat-raised-button color="accent" (click)="closepopup()">Close</button>
+        </div>
+    </mat-card>
+</form>
